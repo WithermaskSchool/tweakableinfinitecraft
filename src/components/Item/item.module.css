@@ -1,0 +1,14 @@
+.item {
+    border: 1px solid black;
+    display: block;
+    width: fit-content;
+    padding: .5em;
+    border-radius: 6px;
+    cursor: pointer;
+    user-select: none;
+    background-color: white;
+}
+
+.item:hover {
+    filter: brightness(.95)
+}
